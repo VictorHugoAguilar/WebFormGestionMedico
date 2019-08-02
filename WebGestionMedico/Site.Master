@@ -69,7 +69,7 @@
                 <div class="form-inline ml-5">
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Buscar servicio..." aria-label="Search">
-                        <button class="btn btn-outline-dark my-2 my-sm-0" type="button">Buscar</button>
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="button">Buscar</button>
                     </form>
                 </div>
             </div>
