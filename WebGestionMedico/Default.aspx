@@ -4,6 +4,8 @@
     <div class="jumbotron">
         <h1>Gestión de Médicos</h1>
         <p>La herramienta definitiva para la gestión de las visitas y la comunicación con sus pacientes.</p>
+        <a runat="server" class="btn btn-primary btn-lg" href="~/Medicos">ir a Médicos...<span class="sr-only">(current)</span></a>
+
     </div>
     <div class="row">
         <div class="col-md-4">

@@ -36,7 +36,7 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #b300b3; top:-50px;">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #b300b3;">
             <a class="navbar-brand" runat="server" href="~/">Gestión de Médicos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,7 +55,23 @@
                     <li class="nav-item">
                         <li><a runat="server" class="nav-link" href="~/ActoMedico">Acto Médico</a></li>
                     </li>
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gestion de Servicios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Gestion de Citas</a>
+                            <a class="dropdown-item" href="#">Gestion de Facturas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Calendario</a>
+                        </div>
+                    </li>
                 </ul>
+                <div class="form-inline ml-5">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar servicio..." aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="button">Buscar</button>
+                    </form>
+                </div>
             </div>
         </nav>
         <div class="container">
